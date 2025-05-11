@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Present Simple vs Continuous — State vs Dynamic</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 { font-size: 48px; }
+    h2 { font-size: 24px; }
+    h3 { font-size: 28px; color: #6db88f; margin-bottom: 20px; }
+    button {
+      background-color: #6db88f;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 10px;
+    }
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 10;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.8);
+    }
+    .modal-content {
+      background-color: #222;
+      margin: 5% auto;
+      padding: 30px;
+      border: 1px solid #888;
+      width: 95%;
+      max-width: 900px;
+      color: white;
+      text-align: center;
+      border-radius: 10px;
+    }
+    table { width: 100%; border-collapse: collapse; color: white; margin-top: 20px; }
+    th, td { border: 1px solid #555; padding: 8px; text-align: left; }
+    th { background-color: #333; }
+    .close {
+      color: #aaa; float: right; font-size: 28px; font-weight: bold;
+    }
+    .close:hover, .close:focus {
+      color: white; text-decoration: none; cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+<h1>Grammar</h1>
+<h2><a href="https://t.me/joinandgetinspired" style="color: white;">Join&GetInspired</a></h2>
+<h3>Present Simple vs Present Continuous — State Verbs</h3>
+<button onclick="document.getElementById('rulesModal').style.display='block'">Study the rules</button>
+<div class="modal" id="rulesModal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementById('rulesModal').style.display='none'">×</span>
+    <h3>📌 Present Simple vs Present Continuous — State Verbs</h3>
+<h3>📌 Present Simple vs Present Continuous — State Verbs</h3>
+
+<p>На уровне B1 важно различать <strong>глаголы состояния</strong> (state verbs) и <strong>глаголы действия</strong> (dynamic verbs).</p>
+<p><strong>State verbs</strong> описывают:</p>
+<ul style="text-align:left; display:inline-block;">
+  <li>💭 Эмоции и предпочтения (like, love, hate, want, need, prefer)</li>
+  <li>🧠 Мышление и знание (know, understand, believe, remember)</li>
+  <li>👂 Восприятие (see, hear, sound — в значении восприятия)</li>
+  <li>📦 Владение (have, own, belong)</li>
+</ul>
+<p>Они выражают не действия, а состояния, поэтому чаще всего употребляются в <strong>Present Simple</strong>, а не в <strong>Present Continuous</strong>.</p>
+
+<h3>📋 Основные глаголы состояния (state verbs)</h3>
+<table>
+  <tr><th>Глагол</th><th>Перевод</th></tr>
+  <tr><td>like</td><td>нравиться</td></tr>
+  <tr><td>love</td><td>любить</td></tr>
+  <tr><td>hate</td><td>ненавидеть</td></tr>
+  <tr><td>want</td><td>хотеть</td></tr>
+  <tr><td>prefer</td><td>предпочитать</td></tr>
+  <tr><td>need</td><td>нуждаться</td></tr>
+  <tr><td>know</td><td>знать</td></tr>
+  <tr><td>believe</td><td>верить</td></tr>
+  <tr><td>understand</td><td>понимать</td></tr>
+  <tr><td>remember</td><td>помнить</td></tr>
+  <tr><td>have (в значении «иметь»)</td><td>иметь</td></tr>
+  <tr><td>belong</td><td>принадлежать</td></tr>
+  <tr><td>own</td><td>владеть</td></tr>
+  <tr><td>see (в значении «видеть»)</td><td>видеть</td></tr>
+  <tr><td>hear</td><td>слышать</td></tr>
+</table>
+</div></div>
+<h2 style="margin-top: 60px;">🧠 Practice</h2>
+<p>Choose the correct form of the verb:</p>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>1. I __________ (like) this movie.</p>
+  <button onclick="checkAnswer(this, true)">like</button>
+  <button onclick="checkAnswer(this, false, '‘Like’ — глагол состояния.')">am liking</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>2. She __________ (run) in the park now.</p>
+  <button onclick="checkAnswer(this, true)">is running</button>
+  <button onclick="checkAnswer(this, false, 'Сейчас происходит — Continuous.')">runs</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>3. We __________ (need) more time.</p>
+  <button onclick="checkAnswer(this, true)">need</button>
+  <button onclick="checkAnswer(this, false, '‘Need’ — state verb.')">are needing</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>4. They __________ (cook) dinner at the moment.</p>
+  <button onclick="checkAnswer(this, true)">are cooking</button>
+  <button onclick="checkAnswer(this, false, 'Происходит сейчас — Continuous.')">cook</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>5. He __________ (know) the answer.</p>
+  <button onclick="checkAnswer(this, true)">knows</button>
+  <button onclick="checkAnswer(this, false, '‘Know’ — глагол состояния.')">is knowing</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>6. You __________ (believe) him?</p>
+  <button onclick="checkAnswer(this, true)">Do you believe</button>
+  <button onclick="checkAnswer(this, false, '‘Believe’ — мнение.')">Are you believing</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>7. The dog __________ (bark) loudly.</p>
+  <button onclick="checkAnswer(this, true)">is barking</button>
+  <button onclick="checkAnswer(this, false, 'Прямо сейчас — Continuous.')">barks</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>8. She __________ (love) chocolate.</p>
+  <button onclick="checkAnswer(this, true)">loves</button>
+  <button onclick="checkAnswer(this, false, '‘Love’ — чувство.')">is loving</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>9. I __________ (read) an article right now.</p>
+  <button onclick="checkAnswer(this, true)">am reading</button>
+  <button onclick="checkAnswer(this, false, 'Действие в процессе — Continuous.')">read</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>10. He __________ (have) two sisters.</p>
+  <button onclick="checkAnswer(this, true)">has</button>
+  <button onclick="checkAnswer(this, false, '‘Have’ — в значении 'иметь'.')">is having</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>11. They __________ (play) football outside.</p>
+  <button onclick="checkAnswer(this, true)">are playing</button>
+  <button onclick="checkAnswer(this, false, 'Сейчас происходит — Continuous.')">play</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>12. We __________ (prefer) tea.</p>
+  <button onclick="checkAnswer(this, true)">prefer</button>
+  <button onclick="checkAnswer(this, false, '‘Prefer’ — state verb.')">are preferring</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>13. He __________ (fix) his bike.</p>
+  <button onclick="checkAnswer(this, true)">is fixing</button>
+  <button onclick="checkAnswer(this, false, 'В данный момент — Continuous.')">fixes</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>14. You __________ (understand) the task?</p>
+  <button onclick="checkAnswer(this, true)">Do you understand</button>
+  <button onclick="checkAnswer(this, false, '‘Understand’ — state verb.')">Are you understanding</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>15. She __________ (paint) the walls now.</p>
+  <button onclick="checkAnswer(this, true)">is painting</button>
+  <button onclick="checkAnswer(this, false, 'Сейчас в процессе — Continuous.')">paints</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>16. I __________ (remember) this place.</p>
+  <button onclick="checkAnswer(this, true)">remember</button>
+  <button onclick="checkAnswer(this, false, '‘Remember’ — мыслительный процесс.')">am remembering</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>17. The children __________ (shout) again.</p>
+  <button onclick="checkAnswer(this, true)">are shouting</button>
+  <button onclick="checkAnswer(this, false, 'Действие сейчас — Continuous.')">shout</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>18. He __________ (own) a boat.</p>
+  <button onclick="checkAnswer(this, true)">owns</button>
+  <button onclick="checkAnswer(this, false, '‘Own’ — state verb.')">is owning</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>19. My sister __________ (call) me now.</p>
+  <button onclick="checkAnswer(this, true)">is calling</button>
+  <button onclick="checkAnswer(this, false, 'Сейчас звонит — Continuous.')">calls</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>20. They __________ (belong) to this club.</p>
+  <button onclick="checkAnswer(this, true)">belong</button>
+  <button onclick="checkAnswer(this, false, '‘Belong’ — состояние.')">are belonging</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>21. We __________ (travel) around Europe this month.</p>
+  <button onclick="checkAnswer(this, true)">are travelling</button>
+  <button onclick="checkAnswer(this, false, 'Временная ситуация — Continuous.')">travel</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>22. I __________ (hear) a strange sound.</p>
+  <button onclick="checkAnswer(this, true)">hear</button>
+  <button onclick="checkAnswer(this, false, '‘Hear’ — восприятие.')">am hearing</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>23. He __________ (not/like) the idea.</p>
+  <button onclick="checkAnswer(this, true)">doesn’t like</button>
+  <button onclick="checkAnswer(this, false, '‘Like’ — state verb.')">isn’t liking</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>24. She __________ (open) the window.</p>
+  <button onclick="checkAnswer(this, true)">is opening</button>
+  <button onclick="checkAnswer(this, false, 'Сейчас происходит — Continuous.')">opens</button>
+</div>
+
+<div style="margin: 20px auto; font-size: 18px; max-width: 700px;">
+  <p>25. We __________ (not/want) to leave yet.</p>
+  <button onclick="checkAnswer(this, true)">don’t want</button>
+  <button onclick="checkAnswer(this, false, '‘Want’ — состояние.')">aren’t wanting</button>
+</div>
+
+<script>
+  function checkAnswer(button, isCorrect, explanation = '') {
+    const buttons = button.parentElement.querySelectorAll("button");
+    buttons.forEach(btn => btn.disabled = true);
+    if (isCorrect) {
+      button.style.backgroundColor = '#4e9e72';
+      button.style.color = 'white';
+    } else {
+      button.style.backgroundColor = '#b35b5b';
+      button.style.color = 'white';
+      if (explanation && !button.parentElement.querySelector('.explanation')) {
+        const p = document.createElement("p");
+        p.className = 'explanation';
+        p.innerText = "❗ " + explanation;
+        p.style.color = "#ffa07a";
+        p.style.marginTop = "10px";
+        button.parentElement.appendChild(p);
+      }
+    }
+  }
+  window.onclick = function(event) {
+    const modal = document.getElementById('rulesModal');
+    if (event.target === modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
+</body></html>
